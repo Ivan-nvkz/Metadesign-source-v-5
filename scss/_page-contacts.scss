@@ -1,0 +1,113 @@
+.page-contacts {
+   background-color: #fff;
+}
+.wrapper-container {
+}
+.container {
+}
+.section-content__container {
+}
+.page-contacts__body {
+   display: flex;
+   justify-content: space-between;
+   padding-top: 74px;
+   padding-bottom: 79px;
+}
+.page-contacts__address-block {
+   display: flex;
+   flex-direction: column;
+   margin-top: 24px;
+}
+.page-contacts__city,
+.page-contacts__phone,
+.page-contacts__mail {
+   position: relative;
+   font-family: "TT Norms";
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 1.18;
+   margin-bottom: 37px;
+   color: #525252;
+}
+.page-contacts__city::before,
+.page-contacts__phone::before,
+.page-contacts__mail::before {
+   position: absolute;
+   content: "";
+   top: 4px;
+   left: -36px;
+   width: 15px;
+   height: 12px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+.page-contacts__city::before {
+   background-image: url("../images/icons/location-icons.svg");
+}
+.page-contacts__phone::before {
+   background-image: url("../images/icons/phone-icons.svg");
+}
+.page-contacts__mail::before {
+   background-image: url("../images/icons/mail-icons.svg");
+}
+
+.page-contacts__phone,
+.page-contacts__mail {
+   display: inline-block;
+   transition: all 0.3s;
+}
+.page-contacts__phone:hover,
+.page-contacts__mail:hover {
+   color: #ff7426;
+   transition: all 0.3s;
+}
+.page-contacts__mail {
+}
+.page-contacts__form-block {
+   width: 642px;
+}
+.page-contacts__form {
+   display: flex;
+   flex-direction: column;
+}
+.input__phone,
+.input__name,
+.input__mail,
+.text__message {
+   border: none;
+   padding: 15px 16px;
+   background-color: #f3f3f4;
+}
+.input__phone::placeholder,
+.input__name::placeholder,
+.input__mail::placeholder,
+.text__message::placeholder {
+   font-size: 16px;
+   line-height: 1.361875;
+   color: #525252;
+}
+.input__phone,
+.input__mail,
+.input__name {
+   margin-bottom: 20px;
+}
+
+.text__message {
+   resize: none;
+   height: 150px;
+   min-width: 100%;
+   margin-bottom: 25px;
+}
+.components__btn {
+}
+.submit__btn {
+   border: none;
+   width: 185px;
+   cursor: pointer;
+   transition: all 0.3s;
+}
+.submit__btn:hover {
+   background-color: #3a3a3a;
+   transition: all 0.3s;
+}

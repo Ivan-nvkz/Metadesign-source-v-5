@@ -1,0 +1,208 @@
+.page-work__card {
+   padding-top: 77px;
+   padding-bottom: 29px;
+}
+.page-work-card__title {
+   font-weight: 600;
+   margin-top: 32px;
+   margin-bottom: 66px;
+   margin-left: 61px;
+}
+.work-card__pages {
+}
+.page-work__inner {
+   display: flex;
+   justify-content: flex-start;
+}
+.page-work__slider {
+   max-width: 400px;
+}
+.page-work__content {
+}
+.page-work__content-inner {
+   display: flex;
+   flex-direction: column;
+   margin-left: 158px;
+}
+.page-work__content-title {
+   font-weight: 600;
+}
+.page-work__content-title,
+.page-work__content-price {
+   font-size: 30px;
+   line-height: 1.3616666666666667;
+   margin-bottom: 30px;
+}
+.page-work__content-price {
+   font-weight: 400;
+}
+.page-work__content-size-box {
+   font-size: 20px;
+   line-height: 1.362;
+   font-weight: 400;
+   color: #525252;
+   margin-bottom: 70px;
+}
+.page-work__content-size {
+}
+.page-work__content-material {
+}
+.page-work__content-year {
+}
+.page-work__content-text {
+   font-family: "TT Norms";
+   font-size: 18px;
+   line-height: 1.18;
+   font-weight: 400;
+   color: #525252;
+   margin-bottom: 67px;
+   max-width: 504px;
+}
+.components__btn {
+}
+.page-work__card-btn {
+   border: none;
+   width: 155px;
+   cursor: pointer;
+   transition: all 0.3s;
+}
+.page-work__card-btn:hover {
+   background-color: #3a3a3a;
+   transition: all 0.3s;
+}
+// slider =============================================================
+.swiper {
+   width: 100%;
+   height: 100%;
+}
+.swiper-slide img {
+   display: block;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.swiper {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+}
+.swiper-slide {
+   background-size: cover;
+   background-position: center;
+}
+.mySwiper2 {
+   max-width: 400px;
+   max-height: 519px;
+}
+.mySwiper {
+   height: 22%;
+   box-sizing: border-box;
+   padding: 30px 0;
+}
+.mySwiper .swiper-slide {
+   opacity: 0.4;
+   min-width: 145px;
+   min-height: 126px;
+   margin-right: 30px;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+   opacity: 1;
+}
+.swiper-slide img {
+   display: block;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+   color: #fff;
+   font-size: 18px;
+}
+// slider =============================================================
+// Pop-up==============================================================
+.overlay {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.7);
+   z-index: 999;
+   opacity: 0;
+   visibility: hidden;
+   // opacity: 1;
+   // visibility: visible;
+   overflow-x: auto;
+   overflow-x: hidden;
+   transition: all 0.8s;
+}
+.overlay--active {
+   opacity: 1;
+   visibility: visible;
+}
+.pop__up {
+   position: fixed;
+   // width: 400px;
+   // height: 400px;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+.pop__up-body {
+   background-color: #fff;
+   position: relative;
+   width: 900px;
+   height: 585px;
+   padding: 60px 122px;
+}
+.close__btn {
+   border: none;
+   position: absolute;
+   top: 15px;
+   right: 15px;
+   background-color: transparent;
+   font-size: 20px;
+   line-height: 1.15;
+   color: #ccc;
+   padding: 8px 15px;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: all 0.3s;
+}
+.close__btn:hover {
+   color: #333;
+   transition: all 0.3s;
+}
+.pop__up-title {
+   font-family: "Noto Serif Display", serif;
+   font-size: 50px;
+   line-height: 1.362;
+   font-weight: 600;
+   text-align: center;
+   margin-bottom: 50px;
+}
+.submit__btn-pop-up {
+   border: none;
+   width: 155px;
+   margin: 0 auto;
+   cursor: pointer;
+   transition: all 0.3s;
+}
+.submit__btn-pop-up:hover {
+   background-color: #3a3a3a;
+   transition: all 0.3s;
+}
+.confidentiality-policy {
+   font-family: "TT Norms";
+   font-size: 16px;
+   line-height: 1.18;
+   font-weight: 400;
+   color: #525252;
+   margin-top: 10px;
+   max-width: 508px;
+   text-align: center;
+   margin: 10px auto 30px;
+}
+// Pop-up==============================================================

@@ -1,0 +1,59 @@
+@import "reset";
+@import "fonts";
+@import "libs";
+@import "header";
+@import "main";
+@import "page-work";
+@import "page-work-card";
+@import "page-publications";
+@import "page-contacts";
+@import "page-about";
+
+.wrapper {
+   display: flex;
+   flex-direction: column;
+   min-height: 100%;
+}
+
+.main {
+   flex: 1 1 auto;
+}
+.footer {
+   flex: 0 0 auto;
+}
+
+.wrapper-container {
+   max-width: 1940px;
+   padding: 0 10px;
+   margin: 0 auto;
+   overflow: hidden;
+}
+@media (max-width: 1920px) {
+   .wrapper-container {
+      @include adaptiv-value("padding-left", 10, 0, 0);
+      @include adaptiv-value("padding-right", 10, 0, 0);
+   }
+}
+
+.container {
+   max-width: 1385px;
+   padding: 0 10px;
+   margin: 0 auto;
+}
+
+body {
+   height: 100%;
+   font-family: "Open Sans", sans-serif;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.375;
+
+   background-color: #b6b6b6;
+   /* Переводим в REM  */
+   /* делим размер по макуту (16px) */
+   /* на 16 (размер шрифта по умолчанию) */
+   /* font-size: 1rem; */
+}
+body._lock {
+   overflow: hidden;
+}

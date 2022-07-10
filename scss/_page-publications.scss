@@ -1,0 +1,60 @@
+.page-publication {
+   padding-bottom: 20px;
+}
+.page-publication__body {
+   padding-top: 74px;
+}
+@media (max-width: 1385px) {
+   .page-publication__body {
+      @include adaptiv-value("padding-top", 74, 50, 0);
+   }
+}
+.page-publication__items {
+   display: flex;
+   justify-content: flex-start;
+   flex-wrap: wrap;
+}
+
+.page-publication__item {
+   margin-bottom: 50px;
+}
+@media (max-width: 1385px) {
+   .page-publication__item {
+      @include adaptiv-value("margin-bottom", 50, 0, 0);
+   }
+}
+@media (max-width: 1100px) {
+   .page-publication__item {
+      flex: 1 1 31%;
+   }
+}
+@media (max-width: 767px) {
+   .page-publication__item {
+      flex: 1 1 48%;
+   }
+}
+@media (max-width: 400px) {
+   .page-publication__item {
+      flex: 1 1 100%;
+   }
+}
+
+.page-publication__item-inner {
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+}
+
+.page-publication__btn {
+   display: inline-block;
+   font-family: "TT Norms";
+   font-size: 20px;
+   line-height: 1.18;
+   font-weight: 500;
+   color: #e31e25;
+   margin-top: 25px;
+}
+
+.page-publication__text {
+   flex: 1 1 auto;
+}
